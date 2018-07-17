@@ -10,6 +10,9 @@
       {
         "containerPort": 4000,
         "hostPort": 0,
+        "labels": {
+          "VIP_0": "/cd-demo-app:4000"
+        },
         "protocol": "tcp",
         "name": "jenkins-deployed-app"
       }
